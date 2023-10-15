@@ -1,22 +1,22 @@
-export RESOURCE_GROUP_NAME=yross-resource-group
-export LOCATION=northeurope
+export RESOURCE_GROUP_NAME=udacity-group
+export LOCATION=East US
 
-export VM_NAME=yross-linux-vm
-export VM_ADMIN_USER=yross
+export VM_NAME=udacity-vm
+export VM_ADMIN_USER=admin_user
 -- export VM_PASS=my-passw0rd-(!)
 export VM_IMAGE=UbuntuLTS
 export VM_SIZE=Standard_B1ls
 
-export SQL_SERVER_NAME=yross-sql-server
-export SQL_SERVER_ADMIN_USER=yross
+export SQL_SERVER_NAME=udacity-sql-server
+export SQL_SERVER_ADMIN_USER=admin_user
 export SQL_SERVER_ADMIN_PASSWORD='my-passw0rd-(!)'
 
 export SQL_SERVER_FW_RULE_AZURE=azureaccess
 export SQL_SERVER_FW_RULE_SPECIFIC_IP=clientid
 
-export SQL_DATABASE_NAME=yross-sql-database
+export SQL_DATABASE_NAME=udacity-database
 
-export STORAGE_ACCOUNT=yross01
+export STORAGE_ACCOUNT=udacity-account
 export STORAGE_CONTAINER=images
 
 
